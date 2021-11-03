@@ -3,3 +3,4 @@
 svc_port: 80
 app_port: 80
 hello_msg: stranger
+namespace: ns
