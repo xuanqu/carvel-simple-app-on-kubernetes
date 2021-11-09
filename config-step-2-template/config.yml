@@ -21,6 +21,8 @@ kind: Deployment
 metadata:
   namespace: #@ data.values.namespace
   name: simple-app
+  annotations:
+    gce2eTime: #@ data.values.gce2eTime
 spec:
   selector:
     matchLabels: #@ labels()
